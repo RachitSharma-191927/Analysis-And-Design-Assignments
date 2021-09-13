@@ -1,21 +1,23 @@
 #include<iostream>
 using namespace std;
+double fibonacci(int n)
+{
+	if(n==0)
+	{
+		return 0;
+	}
+	else if(n==1)
+	{
+		return 1;
+	}
+	else 
+	return fibonacci(n-1)+fibonacci(n-2);
+}
 int main()
 {
-	unsigned long long int a,res,res1,res2;
-	a=50;
-	res1=0;
-	res2=1;
-	cout<<res1<<" "<<res2<<" ";
-	for(int i=1;i<a;i++)
-	{
-		res=res1+res2;
-		res1=res2;
-		res2=res;
-		cout<<res<<" ";
-			
-	}
-	
-	
+	double a;
+	a=60;
+	cout<<fibonacci(a)<<endl; 
+   
 	return 0;	
 }
