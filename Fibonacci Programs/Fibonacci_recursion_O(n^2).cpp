@@ -16,8 +16,12 @@ double fibonacci(int n)
 int main()
 {
 	double a;
-	a=60;
-	cout<<fibonacci(a)<<endl; 
-   
+	cout<<"Enter the Number of Element :";
+	a=50;
+	for(int i=0;i<a;i++)
+	{
+	cout<<fibonacci(i)<<" "; 
+    }
+    
 	return 0;	
 }
