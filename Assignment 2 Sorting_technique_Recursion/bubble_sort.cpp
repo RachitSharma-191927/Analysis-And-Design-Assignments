@@ -39,7 +39,7 @@ int main()
     {
         cout<<a[i]<<endl;
     }
-    cout<<"The maximum value is"<<RAND_MAX;
+    
     return 0;
 
 }
