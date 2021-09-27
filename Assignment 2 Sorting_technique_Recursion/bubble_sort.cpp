@@ -27,7 +27,7 @@ int main()
 {
     int n;
     //cin>>n;
-    n=4500;
+    n=30000;
     int a[n];
     srand(time(0));
     for(int i=0;i<n;i++)
